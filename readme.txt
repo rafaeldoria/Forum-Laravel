@@ -12,3 +12,4 @@ php artisan migrate
 php artisan make:seed UsersTableSeeder / ThreadsTableSeeder / RepliesTableSeeder
 php artisan db:seed
 vendor\bin\phpunit
+npm install --save-dev materialize-css
