@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="csrf-token" content="{{ csrf_token() }}">
         <meta charset="utf-8">
         <meta name="viewport" content="width=devide-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="csrf-token" content="{{csrf_token()}}">
         <title></title>
 
-        <link rel="stylesheet" href="/css/app.css">
+        <link rel="stylesheet" href="css/app.css">
     </head>
     <body>
         <header>
@@ -25,6 +25,5 @@
             @yield('scripts')
         @endcomponent
 
-        @endcomponent
     </body>
 </html>

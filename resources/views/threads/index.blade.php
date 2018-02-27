@@ -3,9 +3,9 @@
 @section('content')
 
 <div id="app">
-    <example>
+    <example-test>
         Carregando
-    </example>
+    </example-test>
 </div>
 @section('scripts')
     <script src="js/threads.js"></script>
