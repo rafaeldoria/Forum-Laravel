@@ -1,12 +1,14 @@
 @extends('layouts.default')
 
 @section('content')
-
-<div id="app">
-    <example-test>
+<div class="container">
+    <h3>{{ __('Most recent threads')}}</h3>
+    <threads>
         Carregando
-    </example-test>
+    </threads>
 </div>
+
+@endsection
 @section('scripts')
     <script src="js/threads.js"></script>
 @endsection

@@ -1,14 +1,14 @@
 webpackJsonp([2],{
 
-/***/ 39:
+/***/ 40:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(40);
+module.exports = __webpack_require__(41);
 
 
 /***/ }),
 
-/***/ 40:
+/***/ 41:
 /***/ (function(module, exports, __webpack_require__) {
 
 
@@ -26,7 +26,7 @@ window.Vue = __webpack_require__(4);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', __webpack_require__(43));
+Vue.component('threads', __webpack_require__(44));
 
 var app = new Vue({
   el: '#app'
@@ -34,15 +34,15 @@ var app = new Vue({
 
 /***/ }),
 
-/***/ 43:
+/***/ 44:
 /***/ (function(module, exports, __webpack_require__) {
 
 var disposed = false
 var normalizeComponent = __webpack_require__(5)
 /* script */
-var __vue_script__ = __webpack_require__(44)
+var __vue_script__ = __webpack_require__(45)
 /* template */
-var __vue_template__ = __webpack_require__(45)
+var __vue_template__ = __webpack_require__(46)
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
@@ -59,7 +59,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources/assets/js/threads/components/ExampleComponent.vue"
+Component.options.__file = "resources/assets/js/threads/components/Threads.vue"
 
 /* hot reload */
 if (false) {(function () {
@@ -68,9 +68,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-7fe2ff04", Component.options)
+    hotAPI.createRecord("data-v-11a37a68", Component.options)
   } else {
-    hotAPI.reload("data-v-7fe2ff04", Component.options)
+    hotAPI.reload("data-v-11a37a68", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -82,7 +82,7 @@ module.exports = Component.exports
 
 /***/ }),
 
-/***/ 44:
+/***/ 45:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -91,31 +91,90 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-/* harmony default export */ __webpack_exports__["default"] = ({
-    mounted: function mounted() {
-        console.log('Component mounted.');
-    }
-});
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
-/***/ 45:
+/***/ 46:
 /***/ (function(module, exports, __webpack_require__) {
 
 var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "card" }, [
+      _c("div", { staticClass: "card-content" }, [
+        _c("span", { staticClass: "card-title" }, [_vm._v("Threads")]),
+        _vm._v(" "),
+        _c("table", [
+          _c("thead", [
+            _c("tr", [
+              _c("th", [_vm._v("#")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Thread")]),
+              _vm._v(" "),
+              _c("th", [_vm._v("Reply")]),
+              _vm._v(" "),
+              _c("th")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("tbody", [
+            _c("tr", [
+              _c("td", [_vm._v("1")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("Test Thread")]),
+              _vm._v(" "),
+              _c("td", [_vm._v("3")]),
+              _vm._v(" "),
+              _c("td", [
+                _c("a", { attrs: { href: "/treads/1" } }, [_vm._v("Open")])
+              ])
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
 render._withStripped = true
 module.exports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-    require("vue-hot-reload-api")      .rerender("data-v-7fe2ff04", module.exports)
+    require("vue-hot-reload-api")      .rerender("data-v-11a37a68", module.exports)
   }
 }
 
@@ -231,4 +290,4 @@ module.exports = function normalizeComponent (
 
 /***/ })
 
-},[39]);
+},[40]);
